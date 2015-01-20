@@ -26,8 +26,8 @@
 			}
 		echo '</p>';
 		$tools = ob_get_contents();
-		 ob_end_clean();	
-return $tools;		 
+		ob_end_clean();	
+		return $tools;		 
 	}
 	
 	if( $Spotlightlist->getId() > 0 ){
